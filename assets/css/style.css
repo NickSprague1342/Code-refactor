@@ -1,13 +1,16 @@
+/* * SELECTS ALL ELEMENTS, KNOWN AS A UNIVERSAL SELECTOR */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* BELOW IS STYLING FOR THE BODY OF THE WEBPAGE */
 body {
     background-color: #d9dcd6;
 }
 
+/* THIS STYLING APPLIES TO ELEMENTS IN THE HEADER AND HEADER NAV BAR */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -32,6 +35,7 @@ header nav {
     /* font-size: 20px; */
 }
 
+/* USED LIST-STYLE-TYPE TO REMOVE THE BULLET POINTS FROM THE NAV UL */
 header nav ul {
     list-style-type: none;
 }
@@ -50,6 +54,7 @@ p {
     font-size: 16px;
 }
 
+/* HERO IS THE LARGE PICTURE WHEN THE WEBPAGE IS OPENED */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,6 +64,7 @@ p {
     background-position: center;
 }
 
+/* FLOAT LEFT AND FLOAT RIGHT ALLOW US TO MOVE THE LOCATION OF ELEMENTS WITHIN THEIR SECTION, THIS ALLOWS US TO MOVE AN IMAGE TO THE RIGHT OF LEFT OF THE CONTENT */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -75,6 +81,8 @@ p {
     margin-left: 20px;
 }
 
+/* INSTEAD OF HAVING MULTIPLE SECTIONS EACH STYLING THE SAME ELEMENTS I APPLIED TO ALL USING .BENEFITS, MADE THE CSS DRY, I DID THE SAME WITH THE BENEFIT CONTENT, BENEFIT H3, 
+AND BENEFIT IMAGE */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -131,6 +139,7 @@ p {
     text-align: center;
 }
 
-.footer h2 {
+/* FOOTER WAS AN H2 AFTER AN H3, CHANGED THIS TO AN H3 SINCE WE CANNOT HAVE AN H2 AFTER AN H3 */
+.footer h3 {
     font-size: 20px;
 }
